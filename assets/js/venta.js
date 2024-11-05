@@ -1,0 +1,55 @@
+const propVenta = [
+    {
+      nombre: "Casa en Venta",
+      src: "https://i.pinimg.com/originals/51/12/d8/5112d871b1457618954c3088a79cb7ce.jpg",
+      descripcion: "Condominio El Bayo",
+      habitaciones: 3,
+      banos: 3,
+      costo: 323634265,
+      smoke: true,
+      pets: false,
+    },
+    {
+      nombre: "Casa en Venta",
+      src: "https://http2.mlstatic.com/D_NQ_NP_993187-MLC76234471640_052024-O.webp",
+      descripcion:"Maravillosa Casa En Venta, Rodeada De Bosque En Valdivia",
+      habitaciones: 1,
+      banos: 1,
+      costo: 227857959,
+      smoke: true,
+      pets: true,
+    },
+    {
+      nombre: "Casa Venta",
+      src: "https://http2.mlstatic.com/D_NQ_NP_759882-MLC80259528921_102024-O.webp",
+      descripcion: "Casa En Condominio Riberas Del Estancilla",
+      habitaciones: 4,
+      banos: 3,
+      costo: 489894612,
+      smoke: true,
+      pets: true,
+    },
+      {
+        nombre: "Casa Venta",
+        src: "https://http2.mlstatic.com/D_NQ_NP_887139-MLC79240177756_092024-O.webp",
+        descripcion: "Hermosa Casa Rodeada De Verde A 15 Min Aeropuerto Pichoy",
+        habitaciones: 4,
+        banos: 4,
+        costo: 474704082,
+        smoke: true,
+        pets: false,
+      },
+      {
+        nombre: "Casa Venta",
+        src: "https://images.adsttc.com/media/images/5e4e/f32b/6ee6/7efe/0e00/00be/large_jpg/Iva%CC%81n_Oztiz_y_Santiago_Robayo-Casa_RH.jpg?1582232354",
+        descripcion: "Hermosa Propiedad, Cercana A Paraisos Vacacionales",
+        habitaciones: 3,
+        banos: 3,
+        costo: 1000800000,
+        smoke: true,
+        pets: true,
+      },
+      
+  ];
+export default propVenta;
+  

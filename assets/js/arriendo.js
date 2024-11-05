@@ -1,0 +1,43 @@
+const propArriendo = [
+    {
+        nombre: "Casa en Arriendo ",
+        src: "https://http2.mlstatic.com/D_NQ_NP_755969-MLC79772809148_102024-O.webp",
+        descripcion: "Hermosa casa  ",
+        habitaciones: 7,
+        banos: 5,
+        costo: 1500000,
+        smoke: true,
+        pets: true,
+    },
+    {
+        nombre: "Casa Arriendo",
+        src: "https://http2.mlstatic.com/D_NQ_NP_686010-MLC79053970418_092024-O.webp",
+        descripcion: "Vivir En El Bosque Cerca De La Ciudad Y De La Costa",
+        habitaciones: 1,
+        banos: 1,
+        costo: 500000,
+        smoke: true,
+        pets: false,
+    },
+    {
+        nombre: "Casa Arriendo",
+        src:"https://http2.mlstatic.com/D_NQ_NP_724410-MLC79724342676_102024-O.webp",
+        descripcion: "Casa En Parcela, 4 Dormitorios, Piscina Y Cabaña",
+        habitaciones: 4,
+        banos: 3,
+        costo: 1850000,
+        smoke: true,
+        pets: true,
+    },
+    {
+        nombre: "Casa Arriendo",
+        src: "https://http2.mlstatic.com/D_NQ_NP_877520-MLC79637529166_102024-O.webp",
+        descripcion: "Casa En Arriendo De 3 Dorm. En Valdivia",
+        habitaciones: 3,
+        banos: 2,
+        costo: 1008000,
+        smoke: true,
+        pets: false,
+    },
+];
+export default propArriendo;
