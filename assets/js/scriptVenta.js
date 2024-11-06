@@ -1,12 +1,12 @@
 import propVenta from './venta.js';
 
 const mostrarPropiedades = (prop, containerId) => {
-  const container = document.getElementById(containerId); // Obtener el contenedor
-  const propFiltrados = prop.slice(0, 5); // Filtrar las primeras 3 propiedades
+  const container = document.getElementById(containerId); 
+  const propFiltrados = prop.slice(0, 5); 
   
-  propFiltrados.forEach((prop) => { // Iterar sobre las propiedades
+  propFiltrados.forEach((prop) => { 
     const card = document.createElement("div");
-    card.className = "col-md-4 mb-4"; // Concatenación correcta de clases
+    card.className = "col-md-4 mb-4"; 
     
     const cardContent = `
       <div class="card">
@@ -26,12 +26,12 @@ const mostrarPropiedades = (prop, containerId) => {
       </div>
     `;
     
-    // Añadir el contenido a la tarjeta
+    
     card.innerHTML = cardContent;
-    container.appendChild(card); // Añadir la tarjeta al contenedor
+    container.appendChild(card); 
   });
 };
 
-// Llamar a la función para mostrar las propiedades
+
 mostrarPropiedades(propVenta, 'propiedadesEnVenta');
 
